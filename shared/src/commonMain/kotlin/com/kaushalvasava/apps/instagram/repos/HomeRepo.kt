@@ -1,6 +1,6 @@
 package com.kaushalvasava.apps.instagram.repos
 
-import com.kaushalvasava.apps.instagram.api.InstagramApi
+import com.kaushalvasava.apps.instagram.api.InstagramApiImpl
 import com.kaushalvasava.apps.instagram.models.BaseResponse
 import com.kaushalvasava.apps.instagram.models.Notification
 import com.kaushalvasava.apps.instagram.models.Post
@@ -13,23 +13,23 @@ import kotlinx.coroutines.delay
 import kotlinx.datetime.Clock
 import kotlin.random.Random
 
-class HomeRepo() {
+class HomeRepo(private val instagramApiImpl: InstagramApiImpl) {
     private val tweetList = mutableListOf<Tweet>()
 
     suspend fun getUserResponse(): BaseResponse<User> {
-        return InstagramApi.getUsers()
+        return instagramApiImpl.getUsers()
     }
 
     suspend fun getPosts(): List<Post> {
-        return InstagramApi.getPosts().data
+        return instagramApiImpl.getPosts().data
     }
 
     suspend fun getStories(): List<Story> {
-        return InstagramApi.getStories().data
+        return instagramApiImpl.getStories().data
     }
 
     suspend fun getNotifications(): List<Notification> {
-        return InstagramApi.getNotifications().data
+        return instagramApiImpl.getNotifications().data
     }
 
     suspend fun getTweets(): List<Tweet> {

@@ -1,5 +1,6 @@
 package com.kaushalvasava.apps.instagram.viewmodel
 
+import com.kaushalvasava.apps.instagram.api.InstagramApiImpl
 import com.kaushalvasava.apps.instagram.models.ApiFailure
 import com.kaushalvasava.apps.instagram.models.BaseState
 import com.kaushalvasava.apps.instagram.models.Notification
@@ -14,9 +15,13 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 
 class HomeViewModel: ViewModel() {
-    private val homeRepo: HomeRepo by lazy {
-        HomeRepo()
+    private val instagramApiImpl: InstagramApiImpl by lazy {
+        InstagramApiImpl()
     }
+    private val homeRepo: HomeRepo by lazy {
+        HomeRepo(instagramApiImpl)
+    }
+
     private val _users =
         MutableStateFlow<BaseState<List<User>, ApiFailure>>(BaseState.Loading)
     val users = _users.asStateFlow()
