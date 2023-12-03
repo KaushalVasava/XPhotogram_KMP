@@ -1,6 +1,11 @@
 # Instagram_KMP
 It is an instagram clone using Jetpack compose and Kotlin Multiplatform. I used Ktor Client, Viewpager, Kamel, Tab-layout, MVVM architecture, Flow, bottom-navigation, navigation graph, and animations. Supports Android, iOS, Desktop Apps.
 
+# Supported Platform
+- Android
+- Desktop
+- iOS
+
 # Features:
 - See Posts, Stories, Tweets
 - Add Story and Post
@@ -29,13 +34,12 @@ It is an instagram clone using Jetpack compose and Kotlin Multiplatform. I used 
 ![4](https://github.com/KaushalVasava/Instagram/assets/49050597/8ea01cad-2ac5-4ec6-a587-01a0d9e02028)
 
 # Video
-
-https://github.com/KaushalVasava/Instagram/assets/49050597/23d08e73-77c8-42f5-a5ba-d5e7b0d4e871
+https://github.com/KaushalVasava/Instagram_KMP/assets/49050597/5bf944cb-1bde-49d3-8383-8a39c31cad4e
 
 # Contribution
 You can contribute this project. Just Solve issue or update code and raise PR. I'll do code review and merge your changes into main branch. See Commit message guidelines https://initialcommit.com/blog/git-commit-messages-best-practices
 
-Licence
+# Licence
 MIT License
 
 Copyright (c) 2023 Kaushal Vasava
