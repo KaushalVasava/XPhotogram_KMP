@@ -36,6 +36,11 @@ It is an instagram clone using Jetpack compose and Kotlin Multiplatform. I used 
 # Video
 https://github.com/KaushalVasava/Instagram_KMP/assets/49050597/5bf944cb-1bde-49d3-8383-8a39c31cad4e
 
+# Support Me
+If you like my work you can support me via :
+
+[![buymecoffee1 (2)](https://github.com/KaushalVasava/Tasks/assets/49050597/327844b7-b9a4-4c5d-beb7-e9e177c82880)](https://www.buymeacoffee.com/kaushal.developer)
+
 # Contribution
 You can contribute this project. Just Solve issue or update code and raise PR. I'll do code review and merge your changes into main branch. See Commit message guidelines https://initialcommit.com/blog/git-commit-messages-best-practices
 
