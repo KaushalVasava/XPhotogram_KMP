@@ -1,5 +1,5 @@
-# Instagram_KMP
-It is an instagram clone using Jetpack compose and Kotlin Multiplatform. I used Ktor Client, Viewpager, Kamel, Tab-layout, MVVM architecture, Flow, bottom-navigation, navigation graph, and animations. Supports Android, iOS, Desktop Apps.
+# XPhotogram_KMP
+It is a XPhotogram app contains functinalities of Instagram and X apps, developed using Jetpack compose and Kotlin Multiplatform. I used Ktor Client, Viewpager, Kamel, Tab-layout, MVVM architecture, Flow, bottom-navigation, navigation graph, and animations. Supports Android, iOS, Desktop Apps.
 
 # Supported Platform
 - Android
@@ -47,7 +47,7 @@ You can contribute this project. Just Solve issue or update code and raise PR. I
 # Licence
 MIT License
 
-Copyright (c) 2023 Kaushal Vasava
+Copyright (c) 2024 Kaushal Vasava
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
